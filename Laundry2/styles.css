@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.3em 0em;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 83%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    color: rgba(82, 81, 81, 0.671);
+    width: 35%;
+    padding: 1em 0.3em;
+}
+.home,.service,.about,.contact{
+    cursor: pointer;
+}
+.username div{
+    border-radius: 5px;
+    color: rgb(29, 165, 243);
+    background-color: rgba(161, 202, 243, 0.192);
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 550;
+    padding: 1.2em 0.8em;
+    cursor: pointer;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-div{
+    width: 35%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    justify-content: center;
+}
+.left-div h2{
+    font-family: sans-serif;
+    font-size: 2.3em;
+    color: rgba(20, 20, 20, 0.801);
+}
+.left-div span{
+    color: dodgerblue;
+}
+.left-div p{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: rgba(24, 24, 24, 0.507);
+}
+.left-div button{
+    background-color: dodgerblue;
+    color: white;
+    width: 40%;
+    padding: 1.3em 1.5em;
+    border-radius: 8px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin-top: 2em;
+}
+.left-div button:hover{
+    transform: scale(0.9);
+}
+.right-div{
+    width: 40%;
+    height: 70vh;
+}
+.right-div img{
+    width: 80%;
+    height: 70vh;
+    cursor: pointer;
+}
